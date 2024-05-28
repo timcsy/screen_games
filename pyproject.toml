@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "screen_games"
-version = "0.0.1"
+version = "0.0.2"
 authors = [
     { name="timcsy", email="timocsy@yahoo.com.tw" },
 ]
@@ -19,7 +19,7 @@ classifiers = [
 
 dependencies = [
     "gymnasium>=0.28",
-		"eventstreaming>=0.0.1",
+	"eventstreaming>=0.0.2",
     "python-dotenv>=0.19",
 ]
 
